@@ -1,9 +1,3 @@
-cd C:\Users\lenovo\Downloads\neurovault-ai\neurovault\backend
-notepad requirements.txt
-```
-
-Replace the entire file with this:
-```
 fastapi==0.111.0
 uvicorn[standard]==0.29.0
 python-multipart==0.0.9
