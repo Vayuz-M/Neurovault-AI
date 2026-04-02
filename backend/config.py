@@ -35,8 +35,10 @@ class Settings(BaseSettings):
 
     # CORS
     ALLOWED_ORIGINS: List[str] = [
-        "http://localhost:5173",
-        "http://localhost:3000",
+    "http://localhost:5173",
+    "http://localhost:3000",
+    "https://neurovault-ai.vercel.app",
+    "https://neurovault-frontend.onrender.com",
     ]
     
     HF_HOME: str = "C:\\Users\\lenovo\\Downloads\\neurovault-ai\\hf_cache"
