@@ -1,0 +1,70 @@
+# ==========================================
+# NeuroVault AI - .gitignore
+# ==========================================
+
+# --- Environment variables (NEVER upload these) ---
+.env
+.env.local
+.env.*.local
+*.env
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+*.pyc
+
+# --- Node / Frontend ---
+node_modules/
+frontend/dist/
+frontend/.next/
+frontend/build/
+.nuxt/
+
+# --- Uploads (user files, don't commit) ---
+backend/uploads/
+uploads/
+
+# --- AI Model Cache ---
+hf_cache/
+*.cache/
+
+# --- Database ---
+*.db
+*.sqlite
+*.sqlite3
+pgdata/
+
+# --- Logs ---
+*.log
+logs/
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- Docker ---
+docker-compose.override.yml
+
+# --- OS ---
+.DS_Store
+Desktop.ini
+
+# AI Model Cache (too large for GitHub)
+hf_cache/
+*.safetensors
+*.bin
+*.pt
